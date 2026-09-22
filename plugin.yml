@@ -1,0 +1,19 @@
+name: XtremeMines
+version: '1.0'
+main: me.VPL_Studios.xtremeMines.XtremeMines
+api-version: '1.21'
+author: VPL_Studios
+description: In-game GUI-configurable prestige/reset mines.
+
+commands:
+  xm:
+    description: Opens the XtremeMines admin configurator
+    usage: /xm gui
+  wand:
+    description: Gives you the mine selection wand
+    usage: /wand
+
+permissions:
+  xtrememines.admin:
+    description: Allows access to /xm gui and /wand
+    default: op
